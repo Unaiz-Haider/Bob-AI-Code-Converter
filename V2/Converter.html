@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob 1.0</title>
+    <link rel="stylesheet" href="converter.css">
+
+
+</head>
+
+<body>
+
+    <button id="mode"> Light Mode </button>
+
+    <button id="Swap-Code"> Swap </button>
+
+    <h1 id="input-heading"> Input Code: </h1>
+
+    <div id="input-section">
+        <img src="/Code Generator/Logos/python-48.png" alt="">
+        
+        <select name="Choose language" id="select-input-language">
+            <option> <img src="/Code Generator/Logos/python-48.png" alt="python" class="lang-image"> Python</option>
+            <option> <img src="" alt=""> Java</option>
+            <option> <img src="" alt=""> C++ </option>
+            <option> <img src="" alt=""> Javascript</option>
+            <option> <img src="" alt=""> Perl</option>
+        </select>
+        <textarea name="" placeholder='Example:print("Hello World")' id="input-code"></textarea>
+    </div>
+
+
+    <h1 id="output-heading"> Output Code: </h1>
+
+    <div id="output-section">
+        <select name="Choose language" id="select-output-language">
+            <option> <img src="" alt=""> C++ </option>
+            <option> <img src="" alt=""> Java </option>
+            <option> <img src="" alt=""> Python </option>
+            <option> <img src="" alt=""> Javascript </option>
+            <option> <img src="" alt=""> Perl </option>
+        </select>
+
+        <textarea name="" placeholder='include<iostream>
+using namespace std; 
+
+int main() {
+         
+    cout<<"Hello World";
+
+    return 0;
+}' id="output-code" readonly></textarea>
+    </div>
+
+
+
+    <button id="Generate-Code"> Generate </button>
+</body>
+
+</html>

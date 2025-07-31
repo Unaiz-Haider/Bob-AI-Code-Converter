@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+#mode{
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    right: 1%;
+    top: 2.5%;
+    background-color: white;
+    cursor: pointer;
+
+} 
+
+#input-heading {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 6%;
+    left: 2%;
+}
+
+.lang-image{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+ 
+
+ #Swap-Code {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color:azure;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index:5;
+
+}
+
+
+
+#select-input-language {
+    display: flex;
+    position: absolute;
+    top: 6.5%;
+    left:13%;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color:wheat;
+    border-radius: 5px;
+
+}
+
+#input-code {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    top:10%;
+    left: 2%;
+    height: 80%;
+    width: 40%;
+    border-radius: 7px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+
+}
+
+
+
+#output-heading {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 6%;
+    right: 30%;
+}
+
+#select-output-language {
+    display: flex;
+    position: absolute;
+    top: 6.4%;
+    right:22%;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color:wheat;
+    border-radius: 5px;
+
+}
+
+#output-code {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    top:10%;
+    right: 2%;
+    height: 80%;
+    width: 40%;
+    border-radius: 7px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+#Generate-Code {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:#15c694;
+    top: 80%;
+    right: 50%;
+    transform: translateX(50%);
+    cursor: pointer;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1 class="logo">Bob Code Converter</h1>
+        <button id="mode-select">Dark Mode</button>
+    </div>
+
+
+    <div class="container">
+
+        <div class="heading">
+
+            <div class="left-panel">
+                <div class="left-heading">
+                    <img src="/Code Generator/png/python.svg" alt="" class="lang-image" id="input-lang-image">
+                    <select name="input-lang" id="input-lang-select" class="lang-select-options">
+                        <option value="python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="java">Java</option>
+                        <option value="csharp">C#</option>
+                        <option value="cpp">C++</option>
+                        <option value="c">C</option>
+                        <option value="dart">Dart</option>
+                        <option value="fortran">Fortran</option>
+                        <option value="golang">Go</option>
+                        <option value="ada">Ada</option>
+                        <option value="lisp">Lisp</option>
+                        <option value="matlab">MATLAB</option>
+                        <option value="objc">Objective-C</option>
+                        <option value="perl">Perl</option>
+                        <option value="r">R</option>
+                        <option value="php">PHP</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="rust">Rust</option>
+                        <option value="scala">Scala</option>
+                        <option value="sql">SQL</option>
+                        <option value="swift">Swift</option>
+                        <option value="typescript">TypeScript</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <input type="file" id="file-input" accept=".txt,.py,.js,.java,.cs,.cpp">
+            </div>
+
+            <!-- <img src="/Code Generator/png/switch.png" alt="" class="switch-lang"> -->
+
+            <div class="right-panel">
+                <div class="right-heading">
+                    <img src="/Code Generator/png/c++.svg" alt="" class="lang-image" id="output-lang-image">
+                    <select name="output-lang" id="output-lang-select" class="lang-select-options">
+                        <option value="cpp">C++</option>
+                        <option value="c">C</option>
+                        <option value="python">Python</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="java">Java</option>
+                        <option value="csharp">C#</option>
+                        <option value="dart">Dart</option>
+                        <option value="fortran">Fortran</option>
+                        <option value="golang">Go</option>
+                        <option value="lisp">Lisp</option>
+                        <option value="matlab">MATLAB</option>
+                        <option value="objc">Objective-C</option>
+                        <option value="perl">Perl</option>
+                        <option value="r">R</option>
+                        <option value="php">PHP</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="rust">Rust</option>
+                        <option value="scala">Scala</option>
+                        <option value="sql">SQL</option>
+                        <option value="swift">Swift</option>
+                        <option value="typescript">TypeScript</option>
+
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="code-container">
+            <textarea name="input-code" class="code-area" id="input-code-area"
+                placeholder='Example: print("Hello World")'></textarea>
+            <textarea name="output-code" class="code-area" id="output-code-area"></textarea>
+        </div>
+
+        <div class="generate-btn">
+            <button id="generate-btn">Switch</button>
+        </div>
+
+    </div>
+
+    <div class="ai-model-info">
+        <img src="" alt="" id="model-image">
+        <p id="model-info"> Ai model used here has to be mentioned</p>
+    </div>
+
+
+    <div id="info-section">
+        <div class="info-heading-section">
+            <h1 class="info-heading">Language Support</h1>
+        </div>
+
+        <div class="lang-support-section">
+            <div class="lang-item"><img src="/Code Generator/png/python.svg" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/javascript.svg" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/java.svg" alt="Java">
+                <p>Java</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/csharp.svg" alt="C#">
+                <p>C#</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/c++.svg" alt="C++">
+                <p>C++</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/c.svg" alt="C">
+                <p>C</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/dart.svg" alt="Dart">
+                <p>Dart</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/fortran.svg" alt="Fortran">
+                <p>Fortran</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/golang.svg" alt="Go">
+                <p>Go</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/ada.svg" alt="Ada">
+                <p>Ada</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/lisp.svg" alt="Lisp">
+                <p>Lisp</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/matlab.svg" alt="MATLAB">
+                <p>MATLAB</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/objc.svg" alt="Objective-C">
+                <p>Objective-C</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/perl.svg" alt="Perl">
+                <p>Perl</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/r.svg" alt="R">
+                <p>R</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/php.svg" alt="PHP">
+                <p>PHP</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/ruby.svg" alt="Ruby">
+                <p>Ruby</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/rust.svg" alt="Rust">
+                <p>Rust</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/scala.svg" alt="Scala">
+                <p>Scala</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/sql.svg" alt="SQL">
+                <p>SQL</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/swift.svg" alt="Swift">
+                <p>Swift</p>
+            </div>
+            <div class="lang-item"><img src="/Code Generator/png/typescript.svg" alt="TypeScript">
+                <p>TypeScript</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer-section">
+            <ul class="footer-info">
+                <li> Bob AI Code Converter</li>
+                <li> Gen AI Mini Project</li>
+                <li> Multiple Languages Support</li>
+                <li> Easy code conversion for efficiency</li>
+            </ul>
+
+            <ul class="footer-info">
+                <li> Build with GPT 3.5</li>
+                <li> HTML, CSS, Javascript, React, Python</li>
+                <li> Gen AI mini Project</li>
+                <li> Date of Completion</li>
+            </ul>
+
+            <ul class="footer-info">
+                <li> abc</li>
+                <li> xyz</li>
+                <li> mno</li>
+                <li> pqr</li>
+            </ul>
+        </div>
+
+        <div class="last-panel">
+            <p>Build by Unaiz Haider</p>
+            <a href="https://www.linkedin.com/in/unaiz-haider-126409290/" target="_blank"> @LinkedIn</a>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script>
+        document.getElementById("output-code-area").value =
+            `#include <iostream>
+using namespace std;
+int main(){
+
+    cout << "Hello World" << endl;
+
+    return 0;
+}`;
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
