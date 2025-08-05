@@ -205,56 +205,56 @@ outputLangSelect.addEventListener("change", () =>{
 });
 
 
-
 function getLangImagePath(lang) {
     switch (lang) {
         case "python":
-            return "/Code Generator/png/python.svg";
+            return "../png/python.svg";
         case "javascript":
-            return "/Code Generator/png/javascript.svg";
+            return "../png/javascript.svg";
         case "java":
-            return "/Code Generator/png/java.svg";
+            return "../png/java.svg";
         case "csharp":
-            return "/Code Generator/png/csharp.svg";
+            return "../png/csharp.svg";
         case "cpp":
-            return "/Code Generator/png/c++.svg";
+            return "../png/c++.svg";
         case "c":
-            return "/Code Generator/png/c.svg";
+            return "../png/c.svg";
         case "dart":
-            return "/Code Generator/png/dart.svg";
+            return "../png/dart.svg";
         case "fortran":
-            return "/Code Generator/png/fortran.svg";
+            return "../png/fortran.svg";
         case "golang":
-            return "/Code Generator/png/golang.svg";
+            return "../png/golang.svg";
         case "lisp":
-            return "/Code Generator/png/lisp.svg";
+            return "../png/lisp.svg";
         case "matlab":
-            return "/Code Generator/png/matlab.svg";
+            return "../png/matlab.svg";
         case "objc":
-            return "/Code Generator/png/objc.svg";
+            return "../png/objc.svg";
         case "perl":
-            return "/Code Generator/png/perl.svg";
+            return "../png/perl.svg";
         case "ada":
-            return "/Code Generator/png/ada.svg";
+            return "../png/ada.svg";
         case "r":
-            return "/Code Generator/png/r.svg";
+            return "../png/r.svg";
         case "php":
-            return "/Code Generator/png/php.svg";
+            return "../png/php.svg";
         case "ruby":
-            return "/Code Generator/png/ruby.svg";
+            return "../png/ruby.svg";
         case "rust":
-            return "/Code Generator/png/rust.svg";
+            return "../png/rust.svg";
         case "scala":
-            return "/Code Generator/png/scala.svg";
+            return "../png/scala.svg";
         case "sql":
-            return "/Code Generator/png/sql.svg";
+            return "../png/sql.svg";
         case "swift":
-            return "/Code Generator/png/swift.svg";
+            return "../png/swift.svg";
         case "typescript":
-            return "/Code Generator/png/typescript.svg";
+            return "../png/typescript.svg";
         default:
             return ""; // fallback for unsupported values
     }
 }
+
 
 
